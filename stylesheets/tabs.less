@@ -1,3 +1,5 @@
+@import 'ui-variables';
+
 @modified-icon-width: 8px;
 
 @tab-border: none;
@@ -8,7 +10,7 @@
 @tab-bar-bottom-border-color: rgb(16,17,18);
 @tab-bar-background-color: rgb(38,43,48);
 
-@tab-height: 40px;
+@tab-height: 30px;
 @tab-top-padding: 0px;
 @tab-bottom-border-height: 0px;
 
@@ -17,7 +19,7 @@ tabs-bar, .tab-bar {
   background: @tab-bar-background-color;
   padding: 0 10px 0 10px;
   box-sizing: border-box;
-  border-bottom: solid 4px @tab-bar-bottom-border-color;
+  border-bottom: solid 1px @tab-bar-bottom-border-color;
   // left: 16px;
 
   &:after {
@@ -45,7 +47,7 @@ tabs-bar, .tab-bar {
     box-shadow: none;
     border-radius: 0;
     border: none;
-    border-bottom: solid 4px @tab-bar-bottom-border-color;
+    border-bottom: solid 1px @tab-bar-bottom-border-color;
 
     &, &:before {
       background: @tab-background;
@@ -107,7 +109,7 @@ tabs-bar, .tab-bar {
     color: @text-color-highlight;
     box-shadow: none;
     border: none;
-    border-bottom: solid 4px @tab-highlight-color;
+    border-bottom: solid 1px @tab-highlight-color;
 
     .title{
       position: relative;
@@ -127,7 +129,7 @@ tabs-bar, .tab-bar {
 
     &:before {
       border: none;
-      border-bottom: solid 4px @tab-highlight-color;
+      border-bottom: solid 1px @tab-highlight-color;
       box-shadow: none;
     }
 
